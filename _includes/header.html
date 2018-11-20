@@ -46,4 +46,28 @@
 <a class="skip-link sr-only" href="#content">Skip to content</a>
 
 <!-- MAIN MENU -->
+<nav id="#access" class="navbar navbar-default navbar-inverse">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container">
+        <div class="navbar-header"></div>
+        <div id="main-menu-collapse" class="collapse navbar-collapse">
+            <ul id="menu-hoofdmenu" class="nav navbar-nav">
+                {% for item in site.data.menu.main %}
+                <li class="first-item menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+                    <a title="{{ item.title }}" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">{{ item.title }} <span class="caret"></span></a>
+                    {% for entry in item.subitems %}
+                    <ul role="menu" class=" dropdown-menu">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+                            <a title="Yoda portal categories" href="{{ entry.url }}">
+                                {{ entry.page }}
+                            </a>
+                        </li>
+                    </ul>
+                    {% endfor %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>
 <!-- /MAIN MENU -->
