@@ -42,10 +42,10 @@
                                 <div class="menu-hoofdmenu-container">
                                     <!-- PAGE MENU -->
                                     <ul class="menu">
-                                        {% assign menu = site.data.menu[menuType] %}
-                                        {% for item in menu %}
-                                        {% assign path = site.baseurl | append: item.url %}
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children{% if page.url == path %} current-menu-item{% endif %}">
+                                        {% assign currentPagePath = site.baseurl | append: page.url %}
+                                        {% for item in site.data.menu[menuType] %}
+                                            {% assign path = site.baseurl | append: item.url %}
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children{% if currentPagePath == path %} current-menu-item{% endif %}">
                                                 <a href="{{ path }}">{{ item.page }}</a>
                                             </li>
                                         {% endfor %}
