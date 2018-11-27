@@ -33,14 +33,29 @@
                 <div id="content-wrapper" class="container">
                     <div class="row-offcanvas row-offcanvas-left">
                         <div id="left-sidebar" class="sidebar-offcanvas clearfix hidden-print" role="complementary">
-                            <div id="nav_menu-2" class="widget-1 first-widget widget widget_nav_menu">
+                            <!-- PAGE MENU -->
+                            {% assign pathArray = page.path | split: '/' %}
+                            {% assign menuType = pathArray[0] %}
+                            {% if site.data.menu contains menuType %}
+                            <div class="widget-1 first-widget widget widget_nav_menu">
                                 <h4 class="widgettitle">Menu</h4>
                                 <div class="menu-hoofdmenu-container">
                                     <!-- PAGE MENU -->
-                                    <!-- /PAGE MENU -->
+                                    <ul class="menu">
+                                        {% assign menu = site.data.menu[menuType] %}
+                                        {% for item in menu %}
+                                        {% assign path = site.baseurl | append: item.url %}
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children{% if page.url == path %} current-menu-item{% endif %}">
+                                                <a href="{{ path }}">{{ item.page }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
                                 </div>
                             </div>
+                            {% endif %}
+                            <!-- /PAGE MENU -->    
                         </div>
+
                         <div class="page-content clearfix">
                             {% if page.title %}
                             <div class="page-title">
