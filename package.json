@@ -13,5 +13,8 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "1.0.0",
     "gulp-sass": "^2.1.0"
+  },
+  "dependencies": {
+    "yarn": "^1.17.3"
   }
 }
