@@ -13,9 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Data Privacy Project
+title: "Data Privacy Project | Utrecht University"
 email: info.rdm@uu.nl
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ''
+description: "University-wide project that aims to make it easier to deal with privacy-sensitive data."
 
 # Build settings
 markdown: kramdown
