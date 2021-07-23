@@ -6,3 +6,5 @@ main:
       url: /page1/page1drop1
   - title: Page2
     url: /page2
+  - title: News
+    url: /_posts
