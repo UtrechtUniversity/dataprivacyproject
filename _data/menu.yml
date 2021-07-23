@@ -7,4 +7,4 @@ main:
   - title: Page2
     url: /page2
   - title: News
-    url: /_posts
+    url: /news
