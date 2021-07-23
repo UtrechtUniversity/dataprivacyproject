@@ -3,6 +3,9 @@ main:
     url: page1
   - title: Page2
     url: page2
-    dropdown:
-    - title: page2drop
-      url: page2drop
+
+page1:
+  - title: Page 1 dropdown 1
+    url: page1drop1
+  - title: Page 1 dropdown 2
+    url: page1drop2
