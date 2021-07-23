@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test page
+#title: Test page
 ---
 
 ## This is page 1
