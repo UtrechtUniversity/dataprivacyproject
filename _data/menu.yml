@@ -1,11 +1,8 @@
 main:
   - title: Page1
     url: /page1
+    dropdown:
+    - title: Page 1 dropdown
+      url: /page1/page1drop1
   - title: Page2
     url: /page2
-
-/page1:
-  - title: Page 1 dropdown 1
-    url: /page1/page1drop1
-  - title: Page 1 dropdown 2
-    url: /page1/page1drop2
