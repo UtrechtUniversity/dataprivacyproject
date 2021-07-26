@@ -1,10 +1,17 @@
 main:
-  - title: Page1
-    url: /page1
-    dropdown:
-    - title: Page 1 dropdown
-      url: /page1/page1drop1
-  - title: Page2
-    url: /page2
+  - title: About
+    url: /pages/about
+  - title: Deliverables
+    url: /pages/deliverables
   - title: News
     url: /news
+  - title: Contact
+    url: /pages/contact
+
+deliverables:
+  - title: Data privacy handbook
+    url: /pages/dataprivacyhandbook
+  - title: Survey
+    url: /pages/survey
+  - title: Dissemination
+    url: /pages/dissemination
