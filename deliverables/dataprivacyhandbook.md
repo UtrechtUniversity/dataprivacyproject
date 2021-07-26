@@ -1,8 +1,9 @@
 ---
 layout: default
-#title: Test page
+title: 🧠 Data Privacy Handbook
 ---
 
-## This is page 1
+The Data Privacy Handbook is an open-source, community-driven Handbook about handling privacy-related issues in research data. It consists of a knowledge base, an overview of privacy-enhancing techniques and tools and use cases to draw inspiration from. The Handbook is aimed primarily at researchers and the aim is to make it as practical and actionable as possible, without going into too much unnecessary detail.
 
-Hello, this is some content on page 1
+- The Handbook can be found [here](https://utrechtuniversity.github.io/dataprivacyhandbook/)
+- The repository underlying the handbook, including more information and How to contribute can be found [here](https://github.com/UtrechtUniversity/dataprivacyhandbook/#readme)

@@ -1,8 +1,6 @@
 ---
 layout: default
-#title: Test page
+title: 💪 Dissemination and training materials
 ---
 
-## This is page 1
-
-Hello, this is some content on page 1
+Information on the dissemination strategy

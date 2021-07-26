@@ -1,8 +1,6 @@
 ---
 layout: default
-#title: Test page
+title: 🔍 Survey among UU research staff
 ---
 
-## This is page 1
-
-Hello, this is some content on page 1
+Information on the survey
