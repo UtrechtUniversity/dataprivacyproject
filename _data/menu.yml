@@ -1,12 +1,12 @@
 main:
   - title: About
-    url: /pages/about
+    url: /about
   - title: Deliverables
     url: /deliverables/deliverables
   - title: News
     url: /news
   - title: Contact
-    url: /pages/contact
+    url: /contact
 
 deliverables:
   - page: Data privacy handbook
