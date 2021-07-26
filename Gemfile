@@ -8,3 +8,4 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 # gem "jekyll", "~> 4.2"
 gem "jekyll-paginate"
+gem "github-pages", group: :jekyll_plugins
