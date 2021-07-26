@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 #baseurl: ''
 title: "Data Privacy Project | Utrecht University"
 email: info.rdm@uu.nl
@@ -23,3 +24,10 @@ markdown: kramdown
 # theme: minima
 
 exclude: ["node_modules"]
+
+plugins:
+    - jekyll-paginate
+
+# PAGINATION
+paginate: 5 # Paginates all X entries
+paginate_path: "news/page:num" # Pagination path › Important for news page in /news/ to work
