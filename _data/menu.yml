@@ -9,9 +9,9 @@ main:
     url: /pages/contact
 
 deliverables:
-  - title: Data privacy handbook
+  - page: Data privacy handbook
     url: /pages/dataprivacyhandbook
-  - title: Survey
+  - page: Survey
     url: /pages/survey
-  - title: Dissemination
+  - page: Dissemination
     url: /pages/dissemination
