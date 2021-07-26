@@ -2,7 +2,7 @@ main:
   - title: About
     url: /pages/about
   - title: Deliverables
-    url: /pages/deliverables
+    url: /deliverables/deliverables
   - title: News
     url: /news
   - title: Contact
@@ -10,8 +10,8 @@ main:
 
 deliverables:
   - page: Data privacy handbook
-    url: /pages/dataprivacyhandbook
+    url: /deliverables/dataprivacyhandbook
   - page: Survey
-    url: /pages/survey
+    url: /deliverables/survey
   - page: Dissemination
-    url: /pages/dissemination
+    url: /deliverables/dissemination
