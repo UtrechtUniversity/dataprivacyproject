@@ -11,6 +11,8 @@ main:
 deliverables:
   - page: Data privacy handbook
     url: /deliverables/dataprivacyhandbook
+  - page: Use cases
+    url: /deliverables/use-cases
   - page: Survey
     url: /deliverables/survey
   - page: Dissemination
