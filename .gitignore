@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 node_modules
 .idea
+.jekyll-cache
+vendor
+.bundle
