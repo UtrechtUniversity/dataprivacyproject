@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#baseurl: ''
+baseurl: ''
 title: "Data Privacy Project | Utrecht University"
 email: info.rdm@uu.nl
 description: "University-wide project that aims to make it easier for researchers to deal with privacy-sensitive data."
