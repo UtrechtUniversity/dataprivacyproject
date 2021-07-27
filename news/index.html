@@ -8,7 +8,7 @@ Find all news about this project on this page:
 <ul>
   {% for post in site.posts %}
     <li>
-      <b><a href="{{ post.url }}">{{ post.title }}</a></b> ({{ post.date | date_to_string }})<br>
+      <b><a href="{{ site.baseurl }} {{ post.url }}">{{ post.title }}</a></b> ({{ post.date | date_to_string }})<br>
       <p>{{ post.summary }}</p>
     </li>
   {% endfor %}
