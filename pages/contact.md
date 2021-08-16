@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Get in touch
+permalink: contact
 ---
 
 Want to get involved in this project? You can!

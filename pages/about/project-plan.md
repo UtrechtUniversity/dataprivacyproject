@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About the data privacy project
+title: Project plan
+permalink: project-plan
 ---
 
 The Data Privacy Project is a data support project within Utrecht University, the Netherlands. The aim of this project is to develop knowledge, tools, and experience of how researchers can and should deal with personal data, with an emphasis on pseudonymization and anonymization techniques and tools. At the moment, knowledge about this appears limited or at best, scattered - both among researchers as well as research supporters. This is likely because different disciplines or projects encounter different issues and/or approach them from different angles. Moreover, there is more personal data in scientific research than previously thought, and questions about translating privacy-related legislation into practical guidelines are getting more and more ubiquitous and complex.

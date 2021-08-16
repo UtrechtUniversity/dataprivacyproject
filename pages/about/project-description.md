@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Project deliverables
+permalink: about/project-description
 ---
 
 The Data Privacy Project has 4 main deliverables:
