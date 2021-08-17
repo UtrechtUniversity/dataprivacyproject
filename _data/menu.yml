@@ -13,13 +13,13 @@ main:
     url: /news
   - title: About
     url: /about
- #   dropdown: # This does not work: the dropdown is supprressed, but I don't know how
- #   - title: Project description
- #     url: /about/project-description
- #   - title: Project plan
- #     url: /about/project-plan
- #   - title: People
- #     url: /about/people
+    dropdown: # This does not work: the dropdown is supprressed, but I don't know how
+    - title: Project description
+      url: /about/project-description
+    - title: Project plan
+      url: /about/project-plan
+    - title: People
+      url: /about/people
   - title: Contact
     url: /contact
 
