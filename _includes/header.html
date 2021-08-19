@@ -64,11 +64,11 @@
                         {% for subitem in site.data.menu[menuType] %}
                         {% assign subitemPath = site.baseurl | append: subitem.url %}
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown{% if subitemPath == path %} current-menu-item{% endif %}">
-                            <a title="{{ subitem.page }}" href="{{ subitemPath }}">
-                                {{ subitem.page }}
+                            <a title="{{ subitem.title }}" href="{{ subitemPath }}"> <!-- subitem.title used to be subitem.page-->
+                                {{ subitem.title }} <!-- subitem.title used to be page-->
                             </a>
                         </li>
-                        {% endfor %}
+                        {% endfor %} 
                     </ul>
                     {% endif %}
                 </li>
