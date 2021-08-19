@@ -1,9 +1,8 @@
-people:
-  - name: "Neha Moopen"
-    role: "Data manager"
-    url: "https://www.uu.nl/medewerkers/NMoopen"
-    #image: ~
-  - name: "Dorien Huijser"
-    role: "Data manager"
-    url: "https://www.uu.nl/medewerkers/DCHuijser"
-    #image: ~
+- name: "Neha Moopen"
+  role: "Data manager"
+  url: "https://www.uu.nl/medewerkers/NMoopen"
+  #image: ~
+- name: "Dorien Huijser"
+  role: "Data manager"
+  url: "https://www.uu.nl/medewerkers/DCHuijser"
+  #image: ~
