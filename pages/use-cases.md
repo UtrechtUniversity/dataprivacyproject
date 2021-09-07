@@ -5,7 +5,7 @@ permalink: use-cases
 ---
 
 ## Call for projects
-<h4>We are looking for research projects with a privacy-related question! <a href="../assets/docs/Call_for_use_cases.pdf" target="_blank">Read more and how to apply here</a>.</h4>
+<h4>We are looking for research projects with a privacy-related question! <a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/Call_for_use_cases.pdf" target="_blank">Read more and how to apply here</a>.</h4>
 
 
 ## What?
@@ -17,4 +17,4 @@ By taking on use cases, we:
 - Create a reusable solution for other researchers and data supporters to use in the future
 
 ## Have a use case you need help with?
-Please read how to apply for support <a href="../assets/docs/Call_for_use_cases.pdf" target="_blank">in the call for use cases</a>, or [contact us](contact) if you have any questions.
+Please read how to apply for support <a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/Call_for_use_cases.pdf" target="_blank">in the call for use cases</a>, or [contact us](contact) if you have any questions.
