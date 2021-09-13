@@ -1,16 +1,6 @@
 main:
   - title: Home
     url: /
-  - title: Handbook
-    url: /handbook
-  - title: Use cases
-    url: /use-cases
-  - title: Survey
-    url: /survey
-  - title: Outreach
-    url: /outreach
-  - title: News
-    url: /news
   - title: About
     url: /about
     subitems: # This does not work: the dropdown is supprressed, but I don't know how
@@ -20,6 +10,19 @@ main:
       url: /about/project-plan
     - title: People
       url: /about/people
+  - title: Deliverables
+    url: /deliverables
+    subitems: # This does not work: the dropdown is supprressed, but I don't know how
+    - title: Data Privacy Handbook
+      url: /deliverables/handbook
+    - title: Use cases
+      url: /deliverables/use-cases
+    - title: Survey
+      url: /deliverables/survey
+    - title: Dissemination
+      url: /deliverables/outreach
+  - title: News
+    url: /news
   - title: Contact
     url: /contact
 
@@ -30,3 +33,13 @@ about:
     url: /about/project-plan
   - page: People
     url: /about/people
+
+deliverables:
+  - page: Data Privacy Handbook
+    url: /handbook
+  - page: Use cases
+    url: /use-cases
+  - page: Survey
+    url: /survey
+  - page: Dissemination
+    url: /dissemination
