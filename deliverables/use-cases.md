@@ -4,9 +4,10 @@ title: 🛠️ Use cases
 permalink: use-cases
 ---
 
-## Call for projects
-<h4>We are looking for research projects with a privacy-related question! <a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/Call_for_use_cases.pdf" target="_blank">Read more and how to apply here</a>.</h4>
+## Call for research projects
+<h4>We are looking for research projects with a privacy-related question! Read more and how to apply in the Call for research projects:</h4>
 
+<a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/Call_for_use_cases.pdf" target="_blank" class = "button">Call for resesarch projects</a>
 
 ## What?
 In order to develop solutions that can be of practical use to multiple research projects, we are taking on use cases. Use cases, in our case, are examples of research projects that need help tackling a privacy-related issue. The desired solution can be of any type, from deidentification workflows and agreement templates to software solutions for secure data sharing or pseudonymization. Importantly, the to be developed solution should be reusable for other projects, so the project should not fall within a niche research area or problem.
@@ -17,4 +18,6 @@ By taking on use cases, we:
 - Create a reusable solution for other researchers and data supporters to use in the future
 
 ## Have a use case you need help with?
-Please read how to apply for support <a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/Call_for_use_cases.pdf" target="_blank">in the call for use cases</a>, or [contact us](contact) if you have any questions.
+Please read how to apply for support in the Call for use cases, or [contact us](contact) if you have any questions.
+
+<a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/Call_for_use_cases.pdf" target="_blank" class = "button">Call for research projects</a>

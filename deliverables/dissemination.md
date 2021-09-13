@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 💪 Dissemination and training materials
-permalink: outreach
+permalink: dissemination
 ---
 
 ## What?
