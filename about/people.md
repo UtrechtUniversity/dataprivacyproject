@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About the data privacy project
 permalink: about/people
 ---
