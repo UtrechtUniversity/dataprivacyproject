@@ -1,4 +1,4 @@
-main:
+navigation_header:
   - title: Home
     url: /
   - title: About
@@ -26,20 +26,20 @@ main:
   - title: Contact
     url: /contact
 
-about:
-  - page: Project description
-    url: /about/project-description
-  - page: Project plan
-    url: /about/project-plan
-  - page: People
-    url: /about/people
+#about:
+#  - page: Project description
+#    url: /about/project-description
+#  - page: Project plan
+#    url: /about/project-plan
+#  - page: People
+#    url: /about/people
 
-deliverables:
-  - page: Data Privacy Handbook
-    url: /handbook
-  - page: Use cases
-    url: /use-cases
-  - page: Survey
-    url: /survey
-  - page: Dissemination
-    url: /dissemination
+#deliverables:
+#  - page: Data Privacy Handbook
+#    url: /handbook
+#  - page: Use cases
+#    url: /use-cases
+#  - page: Survey
+#    url: /survey
+#  - page: Dissemination
+#    url: /dissemination
