@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 💪 Dissemination and training materials
 permalink: dissemination
 ---

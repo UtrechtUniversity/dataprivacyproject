@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 🛠️ Use cases
 permalink: use-cases
 ---
