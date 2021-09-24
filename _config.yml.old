@@ -1,0 +1,34 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+#baseurl: ''
+title: "Data Privacy Project | Utrecht University"
+email: info.rdm@uu.nl
+description: "University-wide project that aims to make it easier for researchers to deal with privacy-sensitive data."
+permalink: /:categories/:year:month:day-:title:output_ext
+
+# Build settings
+markdown: kramdown
+# theme: minima
+
+exclude: ["node_modules"]
+
+plugins:
+    - jekyll-paginate
+
+# PAGINATION
+paginate: 5 # Paginates all X entries
+paginate_path: "news/page:num" # Pagination path › Important for news page in /news/ to work
