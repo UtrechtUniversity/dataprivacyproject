@@ -1,10 +1,10 @@
 ---
 title: Data Privacy Project
-feature_text: |
-  ## Data Privacy Project
-  {{ site.description }}
-feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Description"
+#feature_text: <h2>Data Privacy Project</h2>
+feature_image: "assets/images/header2.png"
+#excerpt: "Description"
+menu: main
+aside: true
 ---
 
 <p>Welcome to the landing page of the Data Privacy Project!</p>
