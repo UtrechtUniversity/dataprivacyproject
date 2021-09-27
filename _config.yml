@@ -31,7 +31,7 @@ plugins:
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
-paginate_path: blog/page:num # jekyll-paginate > blog page
+paginate_path: news/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
   username: RDMsupportUU # jekyll-seo-tag > Owners twitter username
@@ -50,7 +50,7 @@ author: DorienHuijser # jekyll-seo-tag > default author
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+permalink: /:categories/:year:month:day-:title:output_ext  # Permalink style
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Europe/Amsterdam # Timezone for blog posts and alike
 
@@ -87,15 +87,17 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Data Privacy Project" # Site name or title, also used in jekyll-seo-tag
+title: "Data Privacy Project | Utrecht University" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/images/uu-logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "The Data Privacy Project aims to make dealing with privacy-sensitive research data easier for researchers and support staff across Utrecht University." # Site description and default description, also used in jekyll-seo-tag
+description: "University-wide project that aims to make dealing with privacy-sensitive research data easier for researchers and support staff across Utrecht University." # Site description and default description, also used in jekyll-seo-tag
 url: "https://utrechtuniversity.github.io/dataprivacyproject" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/UtrechtUniversity/dataprivacyproject"
-# email: "d.c.huijser@uu.nl"
+email: "info.rdm@uu.nl"
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+
+
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
