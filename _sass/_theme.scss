@@ -44,14 +44,14 @@ body {
 }
 
 .feature {
-  padding-bottom: .4rem;
-  margin-bottom: 1.6rem;
-  text-align: center;
+  padding-bottom: .3rem;
+  margin-bottom: 1.4rem;
+  text-align: left;
   background: $featureBackgroundColour;
   background-size: cover;
   background-position: center;
   .container {
-    min-height: 35vh;
+    min-height: 30vh;
     max-width: 60%;
     @include flex-direction(column);
     @include justify-content(center);
@@ -332,14 +332,14 @@ button,
     display: none;
   }
   background: none;
-  color: $linkColour;
+  color: $hoverColour;
   margin-bottom: 0;
   min-height: 4rem;
   min-width: 4rem;
   &:hover,
   &:focus {
     box-shadow: none;
-    color: $hoverColour;
+    color: $focusColour;
   }
 }
 
@@ -351,7 +351,7 @@ textarea,
 select {
   &:focus,
   &:hover:focus {
-    outline: solid .12rem $focusColour;
+    outline: solid .12rem $hoverColour;
     outline-offset: -.12rem;
   }
 }
@@ -382,7 +382,7 @@ textarea {
 }
 
 label {
-  @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+  @include baseline($fontsize: 1rem, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
 }
 
 code {
