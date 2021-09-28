@@ -3,7 +3,6 @@ title: Data Privacy Project
 #feature_text: <h2>Data Privacy Project</h2>
 feature_image: "assets/images/header2.png"
 #excerpt: "Description"
-menu: main
 aside: true
 ---
 
