@@ -1,7 +1,7 @@
-{% if site.navigation_footer %}
+{% if site.data.navigation.navigation_footer %}
 <nav class="nav  nav--footer">
   <ul class="list list--nav">
-    {% for item in site.navigation_footer %}
+    {% for item in site.data.navigation.navigation_footer %}
 
       {% if item.url contains '://' %}
         {% assign url = item.url %}
@@ -16,5 +16,5 @@
   </ul>
 </nav>
 {% else %}
-  {% include nav-default.html %}
+  <a href="https://uu.nl/rdm" target="_blank">A Utrecht University RDM Support project</a>
 {% endif %}
