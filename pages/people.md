@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About the data privacy project
+title: People
 permalink: about/people
-feature_image: "assets/images/header2.png"
+feature_image: "/assets/images/header2.png"
 aside: true
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: Project description
 permalink: about/project-description
-feature_image: "assets/images/header2.png"
+feature_image: "/assets/images/header2.png"
 aside: true
 ---
 
