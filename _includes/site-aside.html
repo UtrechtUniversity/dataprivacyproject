@@ -4,32 +4,23 @@
     <section class="section  section--related-posts">
       {% include post-related.html %}
     </section>
+  {% endif %}
 
-  {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
+  {% if page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
     <section class="section  section--description">
-      <h3>About this site</h3>
-      <p>{{ site.description }}</p>
-    </section>
-
-  {% elsif page.menu == "main" %}
-    <section class="section  section--category-index">
       <h3>Menu</h3>
-      
-      {% include nav-default.html %}
-
       <ul>
         {% for item in site.data.navigation.navigation_header %}
           <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
-                <a href="{{ item.url }}">{{ item.title }}</a>
+                <a href="{{ item.url }}"><b>{{ item.title }}</b></a>
                   {% if item.subitems %}
                     {% for entry in item.subitems %}
-                      <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+                      <li style="text-indent:20px; list-style: none;"><a href="{{ entry.url }}">{{ entry.title }}</a></li>
                     {% endfor %}
                   {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-      <!-- end of trying again-->
+          </li><br>
+          {% endfor %}  
+        </ul>
     </section>
   {% endif %}
 
