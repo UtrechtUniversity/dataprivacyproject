@@ -3,6 +3,7 @@ layout: page
 title: 🔍 Survey
 permalink: survey
 feature_image: "assets/images/header2.png"
+aside: true
 ---
 
 ## What?

@@ -3,6 +3,7 @@ layout: page
 title: 💪 Dissemination and training materials
 permalink: dissemination
 feature_image: "assets/images/header2.png"
+aside: true
 ---
 
 ## What?

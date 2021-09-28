@@ -1,18 +1,9 @@
 ---
-layout: page
 title: Project deliverables
 permalink: deliverables
 feature_image: "assets/images/header2.png"
+aside: true
 ---
-<aside class="aside  typeset  aside--{{ include.align | default: 'left' }}">
-    <ul>
-        {% for item in site.data.navigation.deliverables %}
-          <li>
-            <a href="{{ item.url }}">{{ item.page }}</a>
-          </li>
-        {% endfor %}
-    </ul>
-</aside>
 
 Click on the menu to read more about each individual project deliverable.
 

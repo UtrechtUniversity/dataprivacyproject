@@ -3,6 +3,7 @@ layout: page
 title: 🧠 Data Privacy Handbook
 permalink: handbook
 feature_image: "assets/images/header2.png"
+aside: true
 ---
 
 <a href="https://utrechtuniversity.github.io/dataprivacyhandbook/" target="_blank" class="button">To the Data Privacy Handbook</a>

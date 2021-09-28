@@ -3,7 +3,7 @@ layout: page
 title: Get in touch
 permalink: contact
 feature_image: "assets/images/header2.png"
-
+aside: true
 ---
 
 Want to get involved in this project? You can!

@@ -3,6 +3,7 @@ layout: page
 title: Project description
 permalink: about/project-description
 feature_image: "assets/images/header2.png"
+aside: true
 ---
 
 The Data Privacy Project is a broad data support effort within Utrecht University, the Netherlands and is funded by Utrecht University's Research IT program 

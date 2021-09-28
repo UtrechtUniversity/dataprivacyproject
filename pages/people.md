@@ -3,6 +3,7 @@ layout: page
 title: About the data privacy project
 permalink: about/people
 feature_image: "assets/images/header2.png"
+aside: true
 ---
 
 The Data Privacy Project is a collaboration between a multiplicity of stakeholders, among which data managers, privacy officers, legal affairs, research engineering and information security.

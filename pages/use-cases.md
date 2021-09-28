@@ -3,6 +3,7 @@ layout: page
 title: 🛠️ Use cases
 permalink: use-cases
 feature_image: "assets/images/header2.png"
+aside: true
 ---
 
 ## Call for research projects

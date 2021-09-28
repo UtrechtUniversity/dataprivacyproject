@@ -3,6 +3,7 @@ layout: page
 title: About the data privacy project
 permalink: about
 feature_image: "assets/images/header2.png"
+aside: true
 ---
 
 Here, you can read more about:

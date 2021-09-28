@@ -3,6 +3,7 @@ layout: page
 title: Project plan
 permalink: about/project-plan
 feature_image: "assets/images/header2.png"
+aside: true
 ---
 
 On this page, you can find our Project and Communication plans, which contain our strategy to make the Data Privacy Project a success!
