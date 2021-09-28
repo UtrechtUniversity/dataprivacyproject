@@ -54,7 +54,7 @@ collections:
     title: News # Needed for Siteleaf
     output: true
     description: "News about the Data Privacy Project" # The post list page content
-    feature_image: "https://picsum.photos/2560/600?image=866" # TO DO
+    feature_image: /assets/images/header2.png
 
 # 6. Jekyll collections settings
 defaults:
@@ -62,7 +62,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/default-social-image.png" # Default image for sharing
+      image: "/assets/images/header2.png" # Default image for sharing
   -
     scope:
       path: ""
@@ -94,14 +94,10 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   16: '/assets/images/favicon.ico'
 
 # 9. Site navigation
-navigation_footer:
-- title: "A Utrecht University RDM Support project"
-  url: "https://uu.nl/rdm"
-
-sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: "#0d94e7"
+#sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+  # Twitter: "#0d94e7"
   # facebook: "#3B5998"
-  Email: true
+  # Email: true
 
 # Load custom fonts from fonts.google.com etc
 #
