@@ -1,0 +1,27 @@
+navigation_header:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+    subitems:
+    - title: Project description
+      url: /about/project-description
+    - title: Project plan
+      url: /about/project-plan
+    - title: People
+      url: /about/people
+  - title: Deliverables
+    url: /deliverables
+    subitems:
+    - title: Data Privacy Handbook
+      url: /handbook
+    - title: Use cases
+      url: /use-cases
+    - title: Survey
+      url: /survey
+    - title: Dissemination
+      url: /dissemination
+  - title: News
+    url: /news
+  - title: Contact
+    url: /contact

@@ -1,5 +1,5 @@
 ---
-layout: newspage
+layout: post
 title:  "Title of the news item"
 summary: "Summary of the news item."
 date: 2021-07-23 # date of the news item in yyyy-mm-dd format
