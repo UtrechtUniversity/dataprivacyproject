@@ -19,7 +19,7 @@
           {% endif %}
 
           <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
-                <a href="{{ item.url }}"><b>{{ item.title }}</b></a>
+                <a href="{{ url }}"><b>{{ item.title }}</b></a>
                   {% if item.subitems %}
                     {% for entry in item.subitems %}
 
