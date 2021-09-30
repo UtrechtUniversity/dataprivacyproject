@@ -11,6 +11,13 @@
       <h3>Menu</h3>
       <ul>
         {% for item in site.data.navigation.navigation_header %}
+        
+          {% if item.url contains '://' %}
+            {% assign url = item.url %}
+          {% else %}
+            {% assign url = item.url | relative_url %}
+          {% endif %}
+
           <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
                 <a href="{{ item.url }}"><b>{{ item.title }}</b></a>
                   {% if item.subitems %}
