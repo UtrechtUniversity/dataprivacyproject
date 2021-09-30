@@ -1,8 +1,7 @@
-_site
-.sass-cache
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-node_modules
-.idea
-.jekyll-cache
-vendor
-.bundle
+alembic-jekyll-theme-*.gem
+Gemfile.lock
+**/Gemfile.lock

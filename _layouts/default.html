@@ -1,109 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-    {% include head.html %}
+<html lang="{{ site.lang | default: "en-US" }}">
 
-    <body data-rsssl="1" class="page-template-default page page-id-6 page-parent" data-spy="scroll" data-target="#sidebarnav">
-        <div id="page">
+  <head>
+    <!-- General meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            {% include header.html %}
+    {% if page.indexing == false %}
+      <meta name="robots" content="noindex">
+    {% endif %}
 
-            <div id="content" class="two-col">
-                <header class="article-header article-header-main">
-                    <div class="header-image hidden-print">
+    {% if page.collectionpage %}
+      {% seo title=false %}
 
-                        {% if page.title %}
-                        <div class="breadcrumbs" xmlns:v="https://rdf.data-vocabulary.org/#">
-                            <div class="container">
-							<span property="itemListElement" typeof="ListItem">
-								<span property="name">Data Privacy Project</span>
-								<meta property="position" content="1">
-							</span>
-                            </div>
-                        </div>
-                        {% endif %}
+      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+      <title>{{ collectiondata.title }} - {{ site.title }}</title>
+      <meta property="og:title" content="{{ collectiondata.title }}">
+      <meta name="description" content="{{ collectiondata.description }}">
+      <meta property="og:description" content="{{ collectiondata.description }}">
+    {% else %}
+      {% seo %}
+    {% endif %}
+    {% if site.fonts.preconnect_urls %}
+      {% for url in site.fonts.preconnect_urls %}
+        <link rel="preconnect" href="{{ url }}" crossorigin />
+      {% endfor %}
+    {% endif %}
 
-                        <img src="{{ site.baseurl }}/assets/images/header.jpg" alt="">
+    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+    <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
 
-                        {% if page.title %}
-                        <div class="page-header-placeholder"></div>
-                        {% endif %}
-                    </div>
-                </header>
+    {% if site.css_inline == true %}
+      {% include site-styles.html %}
+    {% else %}
+      <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    {% endif %}
 
-                <div id="content-wrapper" class="container">
-                    <div class="row-offcanvas row-offcanvas-left">
-                        <div id="left-sidebar" class="sidebar-offcanvas clearfix hidden-print" role="complementary">
-                            <!-- PAGE MENU -->
-                            {% assign pathArray = page.path | split: '/' %}
-                            {% assign menuType = pathArray[0] %}
-                            {% if site.data.menu contains menuType %}
-                            <div class="widget-1 first-widget widget widget_nav_menu">
-                                <h4 class="widgettitle">Menu</h4>
-                                <div class="menu-hoofdmenu-container">
-                                    <!-- PAGE MENU -->
-                                    <ul class="menu">
-                                        {% assign currentPagePath = site.baseurl | append: page.url %}
-                                        {% for item in site.data.menu[menuType] %}
-                                            {% assign path = site.baseurl | append: item.url %}
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children{% if currentPagePath == path %} current-menu-item{% endif %}">
-                                                <a href="{{ path }}">{{ item.page }}</a>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
-                            </div>
-                            {% endif %}
-                            <!-- /PAGE MENU -->
-                        </div>
+    {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
 
-                        <div class="page-content clearfix">
-                            {% if page.title %}
-                            <div class="page-title">
-                                <h1>
-                                    {{ page.title }}
-                                </h1>
-                            </div>
-                            {% endif %}
-			    <!--
-                            <div class="toggle-btn-div visible-xs clearfix">
-                                <button type="button" class="toggle-btn white button icon left arrow-right" data-toggle="offcanvas">
-                                    Show sidebar
-                                </button>
-                            </div>
-                            -->
-                            <div class="page-content-inner facetwp-template">
+    {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
 
-                                <article id="post-6" class="clearfix post-6 page type-page status-publish hentry first-post">
-                                    <section class="entry-content">
-                                        {{ content }}
-                                    </section>
+    {% include site-fonts.html %}
 
-                                    <footer class="article-footer"></footer>
-                                </article>
-                            </div> <!-- /page-content-inner -->
-                        </div> <!-- /page-content -->
-                    </div> <!--row-offcanvas -->
-                </div> <!-- /#content-wrapper -->
-            </div>
+    {% include site-before-start.html %}
+  </head>
 
-            <footer id="colophon" class="footer hidden-print">
-                <div id="inner-footer" class="container clearfix">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img alt="Logo Utrecht University" src="{{ site.baseurl }}/assets/images/uu-logo-footer.svg">
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="source-org copyright pull-right">© 2021 Utrecht University, <a href="https://www.uu.nl/en/organisation/contact/disclaimer">disclaimer</a></p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    {% include site-icons.svg %}
 
-            <p id="back-top" style="display: none;">
-                <a href="#top"><i class="fa fa-angle-up"></i></a>
-            </p>
+    {{ content }}
 
-            {% include footer.html %}
-        </div>
-    </body>
+    {% if site.service_worker != false %}{% include site-sw.html %}{% endif %}
+
+    {% include site-before-end.html %}
+  </body>
 </html>

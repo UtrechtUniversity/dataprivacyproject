@@ -1,0 +1,27 @@
+<aside class="aside  typeset  aside--{{ include.align | default: 'left' }}">
+
+  {% if page.layout == "post" %}
+    <section class="section  section--related-posts">
+      {% include post-related.html %}
+    </section>
+  {% endif %}
+
+  {% if page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
+    <section class="section  section--description">
+      <h3>Menu</h3>
+      <ul>
+        {% for item in site.data.navigation.navigation_header %}
+          <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
+                <a href="{{ item.url }}"><b>{{ item.title }}</b></a>
+                  {% if item.subitems %}
+                    {% for entry in item.subitems %}
+                      <li style="text-indent:20px; list-style: none;"><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+                    {% endfor %}
+                  {% endif %}
+          </li><br>
+          {% endfor %}  
+        </ul>
+    </section>
+  {% endif %}
+
+</aside>
