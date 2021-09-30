@@ -11,7 +11,7 @@
       <h3>Menu</h3>
       <ul>
         {% for item in site.data.navigation.navigation_header %}
-        
+
           {% if item.url contains '://' %}
             {% assign url = item.url %}
           {% else %}
@@ -22,7 +22,14 @@
                 <a href="{{ item.url }}"><b>{{ item.title }}</b></a>
                   {% if item.subitems %}
                     {% for entry in item.subitems %}
-                      <li style="text-indent:20px; list-style: none;"><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+
+                      {% if entry.url contains '://' %}
+                        {% assign url = entry.url %}
+                      {% else %}
+                        {% assign url = entry.url | relative_url %}
+                      {% endif %}
+
+                      <li style="text-indent:20px; list-style: none;"><a href="{{ url }}">{{ entry.title }}</a></li>
                     {% endfor %}
                   {% endif %}
           </li><br>
