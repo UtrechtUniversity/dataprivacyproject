@@ -80,7 +80,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Data Privacy Project - Utrecht University" # Site name or title, also used in jekyll-seo-tag
-logo: "assets/images/dpp-logo-small.png" # Site logo, also used in jekyll-seo-tag
+logo: "../assets/images/dpp-logo-small.png" # Site logo, also used in jekyll-seo-tag
 description: "University-wide project that aims to make dealing with privacy-sensitive research data easier for researchers and support staff across Utrecht University." # Site description and default description, also used in jekyll-seo-tag
 url: "https://utrechtuniversity.github.io/dataprivacyproject" # Site url, also used in jekyll-seo-tag
 #baseurl: "/"
