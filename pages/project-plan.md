@@ -2,7 +2,7 @@
 layout: page
 title: Project plan
 permalink: about/project-plan
-feature_image: "/assets/images/header2.png"
+feature_image: "../assets/images/header2.png"
 aside: true
 ---
 
