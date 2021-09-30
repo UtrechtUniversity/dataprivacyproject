@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: about/people
-feature_image: "/assets/images/header2.png"
+feature_image: "../assets/images/header2.png"
 aside: true
 ---
 
