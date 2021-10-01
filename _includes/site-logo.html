@@ -1,5 +1,5 @@
 <a class="logo" href="{{ site.baseurl }}/">
-  {% if page.title == "News" %} <!-- Only not displaying on the news page -->
+  {% if blog.title == "News" %} <!-- Only not displaying on the news page -->
     <img src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title | append: ' logo' }}"/>
   {% else %}
     <img src="{{ site.logo }}" alt="{{ site.title | append: ' logo' }}"/>
