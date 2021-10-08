@@ -1,8 +1,51 @@
 - name: "Neha Moopen"
-  role: "Data manager"
-  url: "https://www.uu.nl/medewerkers/NMoopen"
-  #image: ~
+  role: "Research Data Manager"
+  url: "https://www.uu.nl/staff/NMoopen"
+  organization: "University Library"
+  #image: ~ # Will send an image
 - name: "Dorien Huijser"
-  role: "Data manager"
-  url: "https://www.uu.nl/medewerkers/DCHuijser"
+  role: "Research Data Manager"
+  url: "https://www.uu.nl/staff/DCHuijser"
   image: "dorien.jpg"
+  organization: "University Library"
+  #image: ~
+- name: "Jacques Flores" # NO PERMISSION YET
+  role: "Data Consultant"
+  url: "https://www.uu.nl/staff/JPFlores"
+  organization: "University Library"
+  #image: ~
+- name: "Francisco Romero Pastrana" # Permission
+  role: "Privacy Officer"
+  url: "https://www.uu.nl/staff/FRomeroPastrana"
+  organization: "Faculty of Geosciences"
+  #image: ~
+- name: "Robert Steeman" # Permission
+  role: "Privacy Officer"
+  url: "https://www.uu.nl/staff/RPMSteeman"
+  organization: "Faculty of Social and Behavioral Sciences"
+  #image: ~ # Will send an image
+- name: "Sanne Kleerebezem" # NO PERMISSION YET
+  role: "Privacy Officer"
+  url: "https://www.uu.nl/staff/SKleerebezem"
+  organization: "Faculty of Veterinary Sciences & University Library"
+  #image: ~
+- name: "Ron Scholten" # NO PERMISSION YET
+  role: "Research Data Manager"
+  url: "https://www.uu.nl/staff/RHHScholten"
+  #image: ~
+  organization: "University Library"
+- name: "Danny de Koning-van Nieuwamerongen" # NO PERMISSION YET
+  role: "Research Data Manager"
+  url: "https://www.uu.nl/staff/DBdeKoningvanNieuwamerongen1"
+  #image: ~
+  organization: "University Library"
+- name: "Liliana Vargas Meleza" # Permission
+  role: "Data Steward"
+  url: "https://www.uu.nl/staff/LVargasMeleza"
+  organization: "Faculty of Geosciences"
+  #image: ~ # Will send an image
+- name: "Garrett Speed" # Permission
+  role: "Data Steward"
+  url: "https://www.uu.nl/staff/GTSpeed"
+  organization: "Faculty of Geosciences"
+  #image: ~
