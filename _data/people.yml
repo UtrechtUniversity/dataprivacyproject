@@ -2,49 +2,49 @@
   role: "Research Data Manager"
   url: "https://www.uu.nl/staff/NMoopen"
   organization: "University Library"
-  #image: ~ # Will send an image
+  image: "neha.png"
 - name: "Dorien Huijser"
   role: "Research Data Manager"
   url: "https://www.uu.nl/staff/DCHuijser"
   image: "dorien.jpg"
   organization: "University Library"
   #image: ~
-#- name: "Jacques Flores" # NO PERMISSION YET
-#  role: "Data Consultant"
-#  url: "https://www.uu.nl/staff/JPFlores"
-#  organization: "University Library"
+- name: "Jacques Flores"
+  role: "Data Consultant"
+  url: "https://www.uu.nl/staff/JPFlores"
+  organization: "University Library"
   #image: ~
-- name: "Francisco Romero Pastrana" # Permission
+- name: "Francisco Romero Pastrana"
   role: "Privacy Officer"
   url: "https://www.uu.nl/staff/FRomeroPastrana"
   organization: "Faculty of Geosciences"
   #image: ~
-- name: "Robert Steeman" # Permission
+- name: "Robert Steeman"
   role: "Privacy Officer"
   url: "https://www.uu.nl/staff/RPMSteeman"
   organization: "Faculty of Social and Behavioral Sciences"
   #image: ~ # Will send an image
-#- name: "Sanne Kleerebezem" # NO PERMISSION YET
-#  role: "Privacy Officer"
-#  url: "https://www.uu.nl/staff/SKleerebezem"
-#  organization: "Faculty of Veterinary Sciences & University Library"
+- name: "Sanne Kleerebezem"
+  role: "Privacy Officer"
+  url: "https://www.uu.nl/staff/SKleerebezem"
+  organization: "Faculty of Veterinary Sciences & University Library"
   #image: ~
-- name: "Ron Scholten" # Permission
+- name: "Ron Scholten"
   role: "Research Data Manager"
   url: "https://www.uu.nl/staff/RHHScholten"
   #image: ~
   organization: "University Library"
-- name: "Danny de Koning-van Nieuwamerongen" # Permission
+- name: "Danny de Koning-van Nieuwamerongen"
   role: "Research Data Manager"
   url: "https://www.uu.nl/staff/DBdeKoningvanNieuwamerongen1"
-  #image: ~
+  image: "danny.jpg"
   organization: "University Library"
-- name: "Liliana Vargas Meleza" # Permission
+- name: "Liliana Vargas Meleza"
   role: "Data Steward"
   url: "https://www.uu.nl/staff/LVargasMeleza"
   organization: "Faculty of Geosciences"
   image: "liliana.png"
-- name: "Garrett Speed" # Permission
+- name: "Garrett Speed"
   role: "Data Steward"
   url: "https://www.uu.nl/staff/GTSpeed"
   organization: "Faculty of Geosciences"
