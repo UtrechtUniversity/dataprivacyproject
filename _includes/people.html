@@ -12,7 +12,9 @@
   }
   
   /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
+  .row {
+    margin: 0 -5px;
+  }
   
   /* Clear floats after the columns */
   .row:after {
@@ -26,7 +28,7 @@
     .column {
       width: 100%;
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
   }
   
@@ -37,6 +39,7 @@
     text-align: left;
     background-color: rgba(255, 255, 255, 0.87);
     transition: 0.3s;
+    border-color: #fff;
   }
 
   /* Put a shadow over the cards when you hover over it */
@@ -55,8 +58,11 @@
           {% else %}
             <img src="../assets/images/avatar.png" alt="Avatar" style="width:100%">
           {% endif %}
-          <h4><b>{{ person.name }}</b></h4> 
-          <p>{{ person.role }}</p> 
+          <h5><b>{{ person.name }}</b></h5>
+          <p>
+            {{ person.role }}
+            <small class="small">{{ person.organization }}</small>
+          </p>
         </div><!-- end card -->
       </a> <!-- end card link  -->
   </div><!-- end column -->
