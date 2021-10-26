@@ -28,11 +28,11 @@
   role: "Privacy Officer"
   url: "https://www.uu.nl/staff/SKleerebezem"
   organization: "Faculty of Veterinary Sciences & University Library"
-  #image: ~
+  image: "sanne.png"
 - name: "Ron Scholten"
   role: "Research Data Manager"
   url: "https://www.uu.nl/staff/RHHScholten"
-  #image: ~
+  image: "ron.png"
   organization: "University Library"
 - name: "Danny de Koning-van Nieuwamerongen"
   role: "Research Data Manager"
