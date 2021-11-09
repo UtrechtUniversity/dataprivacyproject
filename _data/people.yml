@@ -49,6 +49,16 @@
   url: "https://www.uu.nl/staff/GTSpeed"
   organization: "Faculty of Geosciences"
   #image: ~
+- name: "Martine de Vos"
+  role: "Coordinator Research Engineering"
+  url: "https://www.uu.nl/staff/MGdeVos"
+  organization: "Information and Technology Services"
+  image: "martine.png"
+- name: "Frans Huigen"
+  role: "Privacy Officer & Data Steward"
+  url: "https://www.uu.nl/staff/FHuigen"
+  organization: "Faculty of Science"
+  image: "frans.jpg"
 #- name: "Saskia van den Hout" # NO PERMISSION YET
 #  role: "Security Officer"
 #  url: "https://www.uu.nl/medewerkers/SEvandenHout"
