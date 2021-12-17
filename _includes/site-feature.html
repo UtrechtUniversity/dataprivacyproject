@@ -10,6 +10,8 @@
   <div class="feature"{% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
     <div class="container  typeset">
       {{ feature_text | markdownify }}
+      <!-- Hard code the website name in the header image-->
+      <!--<h2>Data Privacy Project</h2>-->
     </div>
   </div>
 {% endif %}

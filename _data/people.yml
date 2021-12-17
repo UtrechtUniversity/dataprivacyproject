@@ -18,12 +18,12 @@
   role: "Privacy Officer"
   url: "https://www.uu.nl/staff/FRomeroPastrana"
   organization: "Faculty of Geosciences"
-  #image: ~
+  image: "francisco.png"
 - name: "Robert Steeman"
   role: "Privacy Officer"
   url: "https://www.uu.nl/staff/RPMSteeman"
   organization: "Faculty of Social and Behavioral Sciences"
-  #image: ~ # Will send an image
+  image: "robert.jpg"
 - name: "Sanne Kleerebezem"
   role: "Privacy Officer"
   url: "https://www.uu.nl/staff/SKleerebezem"
