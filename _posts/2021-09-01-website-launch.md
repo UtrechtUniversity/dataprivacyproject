@@ -3,6 +3,7 @@ layout: post
 title:  "Launch of the Data Privacy Project website"
 summary: "Today, we officially launch the landing page of the Data Privacy Project. Welcome! 🎉"
 date: 2021-09-01
+aside: true
 ---
 
 ## Aim of this website

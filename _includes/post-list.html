@@ -4,10 +4,10 @@
       {% for page in paginator.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
-            <!-- Old --><!--
-            <h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h4>-->
             <!-- New -->
-            <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+            <h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h4>
+            <!-- Old --><!--
+            <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>-->
             {% include post-meta.html %} <br>
             {{ page.summary }}
             <!--{{ page.excerpt | markdownify | truncatewords: 60 }}-->
@@ -24,10 +24,10 @@
       {% for page in site.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
-            <!-- Old --><!--
-            <h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h4>-->
             <!-- New -->
-            <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+            <h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h4>
+            <!-- Old --><!--
+            <h4><a href="{{ page.url }}">{{ page.title }}</a></h4> -->
             {% include post-meta.html %}<br>
             {{ page.summary }}
             <!-- {{ page.excerpt | markdownify | truncatewords: 60 }} -->
