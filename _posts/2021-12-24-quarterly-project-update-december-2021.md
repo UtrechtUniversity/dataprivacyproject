@@ -17,7 +17,7 @@ Want to receive the (internal) monthly email update? Drop us a <a href="#-questi
 How to set up and maintain such a large project? We have been: 
 
 - learning how to involve the individual team members in a meaningful way.
-- setting up a <a href="../about/project-plan" target="_blank">project plan</a> and communications in the form of this website and monthly emails.  
+- setting up a <a href="about/project-plan" target="_blank">project plan</a> and communications in the form of this website and monthly emails.  
 - looking to intensify collaboration with our stakeholders, such as IT experts and research engineers, university-wide privacy officers and information security experts. A path which we hope to continue in the new year! 
 
 ### 🧠 Data Privacy Handbook 
@@ -47,7 +47,7 @@ We are currently working on (documenting) the following topics:
 - Investigating services that allow for safe analysis of personal data without direct access to the data (Code-to-data solutions).  
 - FAIRifying privacy-related <a href="https://github.com/UtrechtUniversity" target="_blank">tooling</a> from the UU Research Engineering team.  
 
-Is your data privacy issue not in this list? **<a href="../use-cases" target="_blank">We are still looking for new use cases!</a>** 
+Is your data privacy issue not in this list? **<a href="use-cases" target="_blank">We are still looking for new use cases!</a>** 
 
 ### 💪 Dissemination 
 To bring the project results into practice, we need to create an implementation plan. This may include several outcomes, such as a reusable presentation, new workshops or adaptations to existing workshops or a new privacy support structure within the university. 
