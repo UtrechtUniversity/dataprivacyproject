@@ -9,7 +9,7 @@ aside: true
 ## Privacy statement
 The survey privacy statement can be found here:
 
-<a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/20220207_Privacy_statement_Data_Privacy_Survey.pdf" target="_blank" class = "button">Privacy statement</a>
+<a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/survey-privacy-statement.pdf" target="_blank" class = "button">Privacy statement</a>
 
 ## What?
 During the entire Data Privacy Project, we want to take into account the perspective of our target audience, the researcher. What data privacy issues to they run into? What are their data privacy needs? How can we best help them? 
