@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Privcy Survey: How can we help you handle privacy-sensitive data in research?"
+title:  "Data Privacy Survey: How can we help you handle privacy-sensitive data in research?"
 summary: "How do you deal with privacy-sensitive data in your research and how can we best support you? We would like to hear from you in the Data Privacy Survey!"
 date: 2022-03-21
 aside: true
