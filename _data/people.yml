@@ -1,3 +1,4 @@
+current:
 - name: "Neha Moopen"
   role: "Research Data Manager"
   url: "https://www.uu.nl/staff/NMoopen"
@@ -24,11 +25,6 @@
   url: "https://www.uu.nl/staff/RPMSteeman"
   organization: "Faculty of Social and Behavioral Sciences"
   image: "robert.jpg"
-- name: "Sanne Kleerebezem"
-  role: "Privacy Officer"
-  url: "https://www.uu.nl/staff/SKleerebezem"
-  organization: "Faculty of Veterinary Sciences & University Library"
-  image: "sanne.png"
 - name: "Ron Scholten"
   role: "Research Data Manager"
   url: "https://www.uu.nl/staff/RHHScholten"
@@ -39,11 +35,6 @@
   url: "https://www.uu.nl/staff/DBdeKoningvanNieuwamerongen1"
   image: "danny.jpg"
   organization: "University Library"
-- name: "Liliana Vargas Meleza"
-  role: "Data Steward"
-  url: "https://www.uu.nl/staff/LVargasMeleza"
-  organization: "Faculty of Geosciences"
-  image: "liliana.png"
 - name: "Garrett Speed"
   role: "Data Steward"
   url: "https://www.uu.nl/staff/GTSpeed"
@@ -63,4 +54,31 @@
 #  role: "Security Officer"
 #  url: "https://www.uu.nl/medewerkers/SEvandenHout"
 #  organization: "Information Technology Services"
+  #image: ~
+- name: "Raoul Schram"
+  role: "Research Engineer"
+  url: "https://www.uu.nl/staff/RDSchram?t=7766a1beb0294b3c97c7674df6dd65e8"
+  organization: "Information and Technology Services"
+  #image: ~
+
+alumni:
+- name: "Liliana Vargas Meleza"
+  role: "Data Steward"
+  #url: "https://www.uu.nl/staff/LVargasMeleza"
+  organization: "Faculty of Geosciences"
+  image: "liliana.png"
+- name: "Sanne Kleerebezem"
+  role: "Privacy Officer"
+  url: "https://www.uu.nl/staff/SKleerebezem"
+  organization: "Faculty of Veterinary Sciences & University Library"
+  image: "sanne.png"
+- name: "Annemiek van der Kuil"
+  role: "Data consultant & Community manager"
+  #url: ~
+  organization: "University Library"
+  #image: ~
+- name: "Menno Rasch"
+  role: "Project manager"
+  #url: ~
+  organization: "Information and Technology Services"
   #image: ~
