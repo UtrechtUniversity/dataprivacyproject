@@ -48,8 +48,31 @@
 }
  </style>
 
+<h3>Team members</h3>
 <div class="row">
-  {% for person in site.data.people %}
+  {% for person in site.data.people.current %}
+  <div class="column">
+    <a href="{{ person.url}}" target="_blank"><!-- This makes the entire card clickable -->
+        <div class="card">
+          {% if person.image %}
+            <img src="../assets/images/{{ person.image }}" alt="{{ person.name }}" style="width:100%">
+          {% else %}
+            <img src="../assets/images/avatar.png" alt="Avatar" style="width:100%">
+          {% endif %}
+          <h5><b>{{ person.name }}</b></h5>
+          <p>
+            {{ person.role }}
+            <small class="small">{{ person.organization }}</small>
+          </p>
+        </div><!-- end card -->
+      </a> <!-- end card link  -->
+  </div><!-- end column -->
+  {% endfor %}
+</div><!-- end row-->
+
+<h3>Alumni</h3>
+<div class="row">
+  {% for person in site.data.people.alumni %}
   <div class="column">
     <a href="{{ person.url}}" target="_blank"><!-- This makes the entire card clickable -->
         <div class="card">
