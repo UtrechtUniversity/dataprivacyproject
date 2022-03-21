@@ -6,8 +6,8 @@ feature_image: "assets/images/header2.png"
 aside: true
 ---
 
-## Privacy statement
-The survey privacy statement can be found here:
+## Privacy statement and survey prevuew
+The survey privacy statement and questions can be found here:
 
 <a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/survey-privacy-statement.pdf" target="_blank" class = "button">Privacy statement</a>
 <a href="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/survey-questions-qualtrics.pdf" target="_blank" class = "button">Preview the survey</a>
