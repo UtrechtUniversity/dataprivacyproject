@@ -60,6 +60,11 @@ current:
   url: "https://www.uu.nl/staff/RDSchram?t=7766a1beb0294b3c97c7674df6dd65e8"
   organization: "Information and Technology Services"
   #image: ~
+- name: "Frans de Liagre Böhl"
+  role: "Faculty data manager"
+  url: "https://www.uu.nl/staff/FMTdeLiagreBohl"
+  organization: "Faculty of Humanities, Institutions for Open Societies"
+  image: "franslb.jpg"
 
 alumni:
 - name: "Liliana Vargas Meleza"
