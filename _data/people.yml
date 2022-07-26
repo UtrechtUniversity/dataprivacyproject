@@ -55,6 +55,11 @@ current:
   url: https://www.uu.nl/medewerkers/avanderkuil
   organization: "University Library"
   #image: ~
+- name: "Leon Kessels"
+  role: "Privacy Officer"
+  url: https://www.uu.nl/medewerkers/LJWMKessels
+  organization: "Faculties of Humanities and Law, Economics & Governance"
+  image: leon.JPG
 
 alumni:
 - name: "Liliana Vargas Meleza"
@@ -64,7 +69,7 @@ alumni:
   image: "liliana.png"
 - name: "Sanne Kleerebezem"
   role: "Privacy Officer"
-  url: "https://www.uu.nl/staff/SKleerebezem"
+  #url: "https://www.uu.nl/staff/SKleerebezem"
   organization: "Faculty of Veterinary Sciences & University Library"
   image: "sanne.png"
 - name: "Menno Rasch"
