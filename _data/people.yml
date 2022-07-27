@@ -60,6 +60,11 @@ current:
   url: https://www.uu.nl/medewerkers/LJWMKessels
   organization: "Faculties of Humanities and Law, Economics & Governance"
   image: leon.JPG
+- name: "Ruud Dielen"
+  role: "Education Specialist"
+  url: https://www.uu.nl/medewerkers/RDPDielen
+  organization: "University Library"
+  image: ruud.jpg
 
 alumni:
 - name: "Liliana Vargas Meleza"
