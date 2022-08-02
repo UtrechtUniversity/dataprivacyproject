@@ -52,19 +52,24 @@ current:
   image: "franslb.jpg"
 - name: "Annemiek van der Kuil"
   role: "Consultant Research Data Management"
-  url: https://www.uu.nl/medewerkers/avanderkuil
+  url: https://www.uu.nl/staff/avanderkuil
   organization: "University Library"
   #image: ~
 - name: "Leon Kessels"
   role: "Privacy Officer"
-  url: https://www.uu.nl/medewerkers/LJWMKessels
+  url: https://www.uu.nl/staff/LJWMKessels
   organization: "Faculties of Humanities and Law, Economics & Governance"
   image: leon.JPG
 - name: "Ruud Dielen"
   role: "Education Specialist"
-  url: https://www.uu.nl/medewerkers/RDPDielen
+  url: https://www.uu.nl/staff/RDPDielen
   organization: "University Library"
   image: ruud.jpg
+- name: "Johanneke Siljee"
+  role: "Second-line privacy officer"
+  url: https://www.uu.nl/staff/BIJSiljee
+  organization: "Legal Affairs"
+  #image: ~
 
 alumni:
 - name: "Liliana Vargas Meleza"
