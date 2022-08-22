@@ -70,6 +70,11 @@ current:
   url: https://www.uu.nl/staff/BIJSiljee
   organization: "Legal Affairs"
   #image: ~
+- name: "Joris de Graaf"
+  role: "Privacy Officer"
+  url: https://www.uu.nl/medewerkers/JWAdeGraaf
+  organization: "Faculties of Humanities and Law, Economics & Governance"
+  image: joris.PNG
 
 alumni:
 - name: "Liliana Vargas Meleza"
