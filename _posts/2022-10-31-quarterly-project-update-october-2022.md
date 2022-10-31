@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Quarterly project update (July 2022)"
+title:  "Quarterly project update (October 2022)"
 summary: "In this update: chapters on Personal data, Privacy notices and Data sharing online, survey reports available, first use cases published, and finishing up the privacy module."
-date: 2022-07-28
+date: 2022-10-31
 aside: true
 ---
 
@@ -24,7 +24,7 @@ Currently in progress:
 - Collectively answering FAQs arising from the Survey and other channels.
 
 ### 🔍 Survey 
-We have recently closed the Data Privacy Survey. In total, we received 176 responses on the online survey, and had one-on-one meetings with 28 researchers. There are now 2 reports available: a report with <a href="https://utrechtuniversity.github.io/dataprivacysurvey/docs/data-privacy-survey-report.html" target = "_blank">the full Results</a> (including for faculties separately) and one with <a href="https://utrechtuniversity.github.io/dataprivacysurvey/docs/data-privacy-survey-recommendations.html" target="_blank">Recommendations</a>. Additionally, all code, documentation and a synthetic dataset are shared in the <a href="https://github.com/utrechtuniversity/dataprivacysurvey" target="_blank">GitHub repository</a>. 
+We have recently closed the Data Privacy Survey. In total, we received 176 responses on the online survey, and had one-on-one meetings with 28 researchers. There are now 2 reports available: a report with <a href="https://utrechtuniversity.github.io/dataprivacysurvey/docs/data-privacy-survey-report.html" target = "_blank">the full Results</a> (including for faculties separately) and one with <a href="https://utrechtuniversity.github.io/dataprivacysurvey/docs/data-privacy-survey-recommendations.html" target="_blank">Recommendations</a>. Additionally, all code, documentation and a synthetic dataset are shared in the <a href="https://github.com/utrechtuniversity/dataprivacysurvey" target="_blank">GitHub repository</a>, and can be cited <a href="" target="_blank">as specified here</a>. 
 
 The next steps are to:
 - Present the results of the survey to all relevant stakeholders, such as privacy officers at faculties and central level, library staff, IT staff, researchers, and possible even outside of the university.
@@ -41,9 +41,9 @@ In the past quarter, we have:
 
 ### 💪 Dissemination 
 We have made significant progress on the e-learning "Privacy basics for researchers". We are currently working on the last part of the first version of the e-learning. In the next quarter, we hope to:
-- Finish a first full version of the e-learning.
+
+- Finish a first full draft version of the e-learning, including yet to be recorded knowledge clips.
 - Receive feedback from privacy officers and external universities who are also creating privacy-related materials for researchers.
-- Release a pilot version of the e-learning.
 
 ### ❓ Questions? 
 Questions or comments about this project? Want to collaborate or provide input? Awesome! Please feel free to drop <a href="https://www.uu.nl/staff/DCHuijser" target="_blank">Dorien</a> a message via email or <a href="https://twitter.com/DorienHuijser" target="_blank">Twitter</a>. 
