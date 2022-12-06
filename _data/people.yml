@@ -48,13 +48,8 @@ current:
 - name: "Frans de Liagre Böhl"
   role: "Faculty data manager"
   url: "https://www.uu.nl/staff/FMTdeLiagreBohl"
-  organization: "Faculty of Humanities, Institutions for Open Societies"
+  organization: "Faculties of Humanities and Law, Economics & Governance"
   image: "franslb.jpg"
-- name: "Annemiek van der Kuil"
-  role: "Consultant Research Data Management"
-  url: https://www.uu.nl/staff/avanderkuil
-  organization: "University Library"
-  #image: ~
 - name: "Leon Kessels"
   role: "Privacy Officer"
   url: https://www.uu.nl/staff/LJWMKessels
@@ -72,9 +67,24 @@ current:
   #image: ~
 - name: "Joris de Graaf"
   role: "Privacy Officer"
-  url: https://www.uu.nl/medewerkers/JWAdeGraaf
+  url: https://www.uu.nl/staff/JWAdeGraaf
   organization: "Faculties of Humanities and Law, Economics & Governance"
   image: joris.PNG
+- name: "Mercedes Beltrán"
+  role: "Data steward"
+  url: https://www.uu.nl/staff/MIBeltran
+  organization: "Faculty of Science"
+  image: mercedes.jpg
+- name: "Kasper de Bruijn"
+  role: "Privacy Officer"
+  url: https://www.uu.nl/staff/KdeBruijn
+  organization: "Faculty of Veterinary Sciences, University Library & University College Utrecht"
+  #image: ~
+- name: "Pieter Bas de Lange"
+  role: "Privacy Officer"
+  url: https://www.uu.nl/staff/PSJLange
+  organization: "Faculty of Veterinary Sciences, University Library & University College Utrecht"
+  image: pieterbas.jpg
 
 alumni:
 - name: "Liliana Vargas Meleza"
@@ -102,3 +112,8 @@ alumni:
   url: "https://www.linkedin.com/in/dannydekoning0/"
   image: "danny.jpg"
   organization: "University Library"
+- name: "Annemiek van der Kuil"
+  role: "Consultant Research Data Management"
+  url: https://www.linkedin.com/in/annemiek-van-der-kuil-33b7213/
+  organization: "University Library"
+  #image: ~
