@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quarterly project update (February 2023)"
-summary: "In this update: chapters on Personal data, Privacy notices and Data sharing online, survey reports available, first use cases published, and finishing up the privacy module."
+summary: "In this update: chapters on Privacy by design, Documents and assessments, and Frequently Asked privacy Questions online, an overview of privacy-related tools, improving the online privacy module, and increasing awareness of the Data Privacy Handbook."
 date: 2023-02-28
 aside: true
 ---
