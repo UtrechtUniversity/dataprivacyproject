@@ -8,6 +8,7 @@ Other repositories related to this project:
 
 - The <a href = "https://utrechtuniversity.github.io/dataprivacyhandbook/" target = "_blank">Data Privacy Handbook</a>, a guide on handling personal data in scientific research (<a href = "https://github.com/UtrechtUniversity/dataprivacyhandbook#readme" target = "_blank">link to repository</a>).
 - The <a href = "https://utrechtuniversity.github.io/dataprivacysurvey/" target = "_blank">Data Privacy Survey</a>, a university-wide survey about the challenges and needs of Utrecht University researchers surrounding the handling of personal data (<a href = "https://github.com/UtrechtUniversity/dataprivacysurvey" target = "_blank">link to repository</a>).
+- An overview of <a href="https://github.com/UtrechtUniversity/privacy-engineering-tools/" target="_blank">privacy engineering tools</a>, that includes tools to de-identify, synthesise and work safely with personal data in research.
 
 ## Technical information
 
