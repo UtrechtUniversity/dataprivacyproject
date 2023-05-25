@@ -6,7 +6,7 @@ feature_image: "../assets/images/header2.png"
 aside: true
 ---
 
-On this page, you can find our Project and Communication plans, which contain our strategy to make the Data Privacy Project a success!
+On this page, you can find the Project and Communication plans that were formulated at the start of the Data Privacy Project. These contai our strategy to make the Data Privacy Project a success!
 
 ## Project plan
 <embed src="https://utrechtuniversity.github.io/dataprivacyproject/assets/docs/dpp-projectplan.pdf" type="application/pdf" width="962px" height="565px"/>
