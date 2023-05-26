@@ -6,6 +6,9 @@ feature_image: "assets/images/header2.png"
 aside: true
 ---
 
+<a href="https://www.uu.nl/en/research/research-data-management/walk-in-hours-workshops/privacy-basics-online-training" target="_blank" class="button">Privacy Basics for Researchers</a>
+<a href="https://doi.org/10.5281/zenodo.7930571" target="_blank" class="button">Raw module materials</a>
+
 Several dissemination activities were created and organised to increase awareness and teach researchers the basic knowledge and skills about privacy.
 
 ## Online module Privacy basics for researchers
