@@ -8,9 +8,11 @@ aside: true
 
 Welcome to the landing page of the Data Privacy Project!
 
-The Data Privacy Project is a data support effort within Utrecht University, the Netherlands. We are funded by Utrecht University's Research IT program and a Digital Competence Center grant from the Dutch Organization for Scientific Research (NWO).
+The Data Privacy Project was a data support effort within Utrecht University, the Netherlands. It was funded by Utrecht University's (FAIR) Research IT program and a Digital Competence Center grant from the Dutch Organization for Scientific Research (NWO).
 
-Our aim is to develop multidisciplinary knowledge of, tools about, and experience with how researchers can and should deal with personal data, with an emphasis on practical techniques, computational tools, legal policies and user experiences.
+The aim of the project was to develop multidisciplinary knowledge of, tools about, and experience with how researchers can and should deal with personal data, with an emphasis on practical techniques, computational tools, legal policies and user experiences. 
+
+<a href="deliverables" class="button">Find out what we accomplished</a>
 
 ### Latest news
 <ul>
