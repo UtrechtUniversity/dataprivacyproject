@@ -30,7 +30,7 @@ plugins:
 - jemoji
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
+paginate: 4 # jekyll-paginate > items per page
 paginate_path: news/page:num # jekyll-paginate > blog page
 #jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 #twitter:
@@ -78,9 +78,9 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
+lang: en-US # Set the site language
 title: "Data Privacy Project - Utrecht University" # Site name or title, also used in jekyll-seo-tag
-logo: "{{ site.baseurl }}/assets/images/dpp-logo-small.png" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/images/UU_logo_2021_EN_RGB.png" # Site logo, also used in jekyll-seo-tag
 description: "University-wide project that aims to make dealing with privacy-sensitive research data easier for researchers and support staff across Utrecht University." # Site description and default description, also used in jekyll-seo-tag
 url: "https://utrechtuniversity.github.io/dataprivacyproject" # Site url, also used in jekyll-seo-tag
 #baseurl: "/"
