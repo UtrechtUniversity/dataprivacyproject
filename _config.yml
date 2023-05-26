@@ -54,7 +54,7 @@ collections:
     title: News # Needed for Siteleaf
     output: true
     description: "News about the Data Privacy Project" # The post list page content
-    feature_image: "{{ site.baseurl }}/assets/images/header2.png"
+    feature_image: "/assets/images/header2.png"
 
 # 6. Jekyll collections settings
 defaults:
@@ -62,7 +62,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "{{ site.baseurl }}/assets/images/header2.png" # Default image for sharing
+      image: "/assets/images/header2.png" # Default image for sharing
   -
     scope:
       path: ""
@@ -80,7 +80,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "Data Privacy Project - Utrecht University" # Site name or title, also used in jekyll-seo-tag
-logo: "{{site.baseurl }}/assets/images/UU_logo_2021_EN_RGB.png" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/images/UU_logo_2021_EN_RGB.png" # Site logo, also used in jekyll-seo-tag
 description: "University-wide project that aims to make dealing with privacy-sensitive research data easier for researchers and support staff across Utrecht University." # Site description and default description, also used in jekyll-seo-tag
 url: "https://utrechtuniversity.github.io/dataprivacyproject" # Site url, also used in jekyll-seo-tag
 #baseurl: "/"
