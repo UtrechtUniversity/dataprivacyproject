@@ -15,11 +15,11 @@ navigation_header:
     subitems:
     - title: Data Privacy Handbook
       url: /handbook
-    - title: Use cases
+    - title: Use cases & tool development
       url: /use-cases
-    - title: Survey
+    - title: Data Privacy Survey
       url: /survey
-    - title: Dissemination
+    - title: Dissemination & training
       url: /dissemination
   - title: News
     url: /news
