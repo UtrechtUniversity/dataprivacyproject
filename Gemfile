@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
 gemspec
-gem 'bootstrap', '~> 5.2.0'
+gem 'bootstrap', '~> 5.3.1'
