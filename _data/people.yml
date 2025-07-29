@@ -110,7 +110,7 @@ alumni:
 - name: "Danny de Koning-van Nieuwamerongen"
   role: "Research Data Manager"
   url: "https://www.linkedin.com/in/dannydekoning0/"
-  image: "danny.jpg"
+  #image: ~
   organization: "University Library"
 - name: "Annemiek van der Kuil"
   role: "Consultant Research Data Management"
