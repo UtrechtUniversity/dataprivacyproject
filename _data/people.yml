@@ -59,7 +59,7 @@ current:
   role: "Education Specialist"
   url: https://www.uu.nl/staff/RDPDielen
   organization: "University Library"
-  image: ruud.jpg
+  #image: ~
 - name: "Johanneke Siljee"
   role: "Second-line privacy officer"
   url: https://www.uu.nl/staff/BIJSiljee
